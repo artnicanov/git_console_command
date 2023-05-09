@@ -5,6 +5,7 @@ import time
 
 app = Flask(__name__)
 
+# app start
 @app.route("/")
 def cor_id_and_auth():
 
